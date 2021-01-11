@@ -1,0 +1,44 @@
+{
+	"name": "@cfdo/react-hooks-tools",
+	"version": "0.0.1-beata2",
+	"description": "ReactHooks",
+	"main": "lib/index.js",
+	"unpkg": "dist/index.umd.js",
+	"private": false,
+	"module": "es/index.js",
+	"types": "lib/index.d.ts",
+	"keywords": [
+		"reac-hooks",
+		"es",
+		"cjs",
+		"lib",
+		"dist",
+		"react"
+	],
+	"scripts": {
+		"build": "father-build",
+		"format": "prettier --write \"./**/*.{ts,json}\""
+	},
+	"homepage": "https://github.com/q1104133609/hooks-tools",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/q1104133609/hooks-tools.git"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/q1104133609/hooks-tools/issues"
+	},
+	"author": "cfdo",
+	"devDependencies": {
+		"@types/react": "^17.0.0",
+		"father-build": "^1.19.1",
+		"prettier": "^2.2.1"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.12.5"
+	},
+	"sideEffects": false,
+	"peerDependencies": {
+		"react": "^17.0.1"
+	}
+}
